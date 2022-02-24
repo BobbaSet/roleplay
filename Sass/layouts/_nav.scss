@@ -1,0 +1,61 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 50px;
+    background: white;
+    border-bottom: 3px solid #c73838;
+
+    .items{
+        display: flex;
+        list-style: none;
+        height: 100%;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .liste-items{
+        cursor: pointer;
+        margin: 0 20px;
+        flex-shrink: 0;
+    }
+
+    .liste-items:nth-child(3){
+        margin-left: 0;
+    }
+
+    .liste-items:nth-child(2){
+        margin-left: 0;
+    }
+
+    /*---------------------------- Sous liste -----------------------------*/
+
+    .sous-liste{
+        position: relative;
+        top: -2px;
+        display: none;
+    }
+
+    .items-sous-liste{
+        list-style-type: none;
+        text-align: center;
+        font-size: 17px;
+        padding: 0 10px;
+        background: #c73838;
+        color: white;
+    }
+
+    .items-sous-liste:hover{
+        background: rgb(156,156,156);
+    }
+
+    .liste-items:hover > ul{
+        display: block;
+    }
+}
