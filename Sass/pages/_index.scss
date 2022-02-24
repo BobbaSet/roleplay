@@ -1,0 +1,25 @@
+.title1, .title2{
+    text-align: center;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1200px;
+    margin: 0 auto;
+    grid-gap: 10px;
+    margin-bottom: 100px;
+
+    .grid-items{
+        width: 610px;
+
+        img{
+            width: 600px;
+        }
+    
+    }
+}
