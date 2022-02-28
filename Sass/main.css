@@ -24,7 +24,7 @@ nav .items {
 nav .liste-items {
   cursor: pointer;
   margin: 0 20px;
-  padding: 3px;
+  padding: 5px;
   flex-shrink: 0;
 }
 nav .liste-items:hover {
