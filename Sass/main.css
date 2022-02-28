@@ -9,8 +9,9 @@ nav {
   justify-content: center;
   width: 100%;
   height: 50px;
-  background: white;
-  border-bottom: 3px solid #c73838;
+  background: linear-gradient(to left, #07335c 0%, #421d86 12%, #5da9ff 47%, #0f0053 100%) left bottom no-repeat;
+  background-size: 100% 5px;
+  /* if linear-gradient, we need to resize it */
   /*---------------------------- Sous liste -----------------------------*/
 }
 nav .items {
@@ -23,23 +24,30 @@ nav .items {
 nav .liste-items {
   cursor: pointer;
   margin: 0 20px;
+  padding: 3px;
   flex-shrink: 0;
+}
+nav .liste-items:hover {
+  color: #5da9ff;
 }
 nav a {
   text-decoration: none;
   color: black;
 }
 nav a:hover {
-  color: #c73838;
+  color: #5da9ff;
 }
 nav .liste-items:nth-child(3) {
   margin-left: 0;
+  margin-right: 0;
 }
 nav .liste-items:nth-child(2) {
   margin-left: 0;
+  margin-right: 0;
 }
 nav .liste-items:nth-child(1) {
   margin-left: 0;
+  margin-right: 0;
 }
 nav .sous-liste {
   position: relative;
@@ -51,7 +59,7 @@ nav .items-sous-liste {
   text-align: center;
   font-size: 17px;
   padding: 0 10px;
-  background: #c73838;
+  background: #5da9ff;
   color: white;
 }
 nav .items-sous-liste:hover {
@@ -83,4 +91,4 @@ body {
 }
 .grid .grid-items img {
   width: 600px;
-}
+}/*# sourceMappingURL=main.css.map */
