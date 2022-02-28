@@ -1,7 +1,7 @@
 .grille{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
     grid-gap: 10px;
     margin-top: 100px;
@@ -10,7 +10,7 @@
 
         .grille-items{
             position: relative;
-            width: 700px;
+            width: 705px;
 
             img{
                 width: 700px;

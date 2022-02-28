@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .title1, .title2{
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
+    width: 1400px;
 }
 
 .title1{
     margin-top: 50px;
 }
 
+p, a, li{
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     margin: 0 auto;
+    width: 1400px;
 }
