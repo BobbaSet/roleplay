@@ -30,14 +30,14 @@ nav .liste-items {
   flex-shrink: 0;
 }
 nav .liste-items:hover {
-  color: #5da9ff;
+  color: #0362cf;
 }
 nav a {
   text-decoration: none;
   color: black;
 }
 nav a:hover {
-  color: #5da9ff;
+  color: #0362cf;
 }
 nav .liste-items:nth-child(3) {
   margin-left: 0;
@@ -118,6 +118,7 @@ body {
   margin: 0 auto;
   width: 1400px;
   background-image: url("../../img/alixtosho4.png");
+  background-attachment: fixed;
 }
 
 main {
