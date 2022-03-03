@@ -116,33 +116,59 @@ body {
   margin: 0 auto;
   width: 1400px;
   background-image: url("../../img/alixtosho4.png");
-  background-repeat: no-repeat;
 }
 
 main {
   margin: 0 auto;
   width: 1200px;
   background-color: white;
+  background-color: rgba(255, 255, 255, 0.644);
+  border-radius: 6px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.flexbox {
+  display: flex;
   width: 1200px;
-  margin: 0 auto;
-  grid-gap: 10px;
-  margin-bottom: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.grid .grid-items {
-  width: 603px;
-  border: 2px solid black;
+.flexbox img {
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 250px;
 }
-.grid .grid-items img {
+.flexbox .rp {
   width: 600px;
+  margin: 0 auto;
 }
 
-.rp {
-  width: 500px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-}/*# sourceMappingURL=main.css.map */
+/*.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1200px;
+    margin: 0 auto;
+    grid-gap: 10px;
+    margin-bottom: 100px;
+
+    .grid-items{
+        width: 603px;
+        border: 2px solid black;
+
+        img{
+            width: 600px;
+        }
+    }
+}
+
+.rp{
+    width: 500px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}*//*# sourceMappingURL=main.css.map */
