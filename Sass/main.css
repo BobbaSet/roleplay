@@ -150,6 +150,8 @@ main {
 .flexbox .rp {
   width: 600px;
   margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 /*.grid{
